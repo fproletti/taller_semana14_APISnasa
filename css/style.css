@@ -8,7 +8,7 @@ main {
   }
 
   .card {
-    height: 550px;
+    height: 500px;
     flex-direction: column;
     margin: 0 5%;
     margin-bottom: 5%;
