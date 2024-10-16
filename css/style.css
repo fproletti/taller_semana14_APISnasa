@@ -1,3 +1,46 @@
 main {
     min-height: calc(100vh - 160px);
   }
+
+  #contenedor {
+    display: flex;
+    
+  }
+
+  .card {
+    height: 550px;
+    flex-direction: column;
+    margin: 0 5%;
+    margin-bottom: 5%;
+
+
+  }
+
+
+  .contImagen {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;     /* Oculta partes de la imagen que sobresalgan */
+    align-items: center;  /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+
+  }
+
+  img {
+    width: 100%;        
+    height: 100%;        
+    object-fit: cover;  }
+
+  .card-body {
+    height: 200px;
+  }
+
+  .card-text {
+    height: 200px;
+  }
+
+  .scroll-container {
+    height: 200px;
+    overflow-y: auto; /* IMPORTANTE --- > Habilita el scroll vertical */
+}
+
